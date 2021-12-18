@@ -1,0 +1,247 @@
+@media (max-width: 767px){
+    .imgBannerMaxHeight{
+    width: 100%;
+    margin: 0px auto;
+    height: 150px !important;
+}
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+  }
+  
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  .border-carousel{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (max-width: 768px) {
+    .bd-placeholder-img {
+      font-size: 3.5rem;
+      height: 150px !important;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .carousel-item{
+        height: 150px;
+    }
+  }
+
+  /* วิดีโอแนะนำสาขาวิชา Style */
+
+  @media only screen and (max-width: 767px){}
+  .iframe-container{
+    position: relative;
+    padding-top: 56.25%; 
+    overflow: hidden;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ประวัติภาควิชา Style */
+  .hs{
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+  }
+
+  /* บุคลากรสายวิชาการ & บุคลากรสายสนับสนุน Style */
+  .team-area{
+    background-color: white;
+    padding-top: 1%;
+    padding-left: 10px;
+  }
+  .single-team{
+
+      margin-bottom: 10px;
+  }
+
+  .img-area{
+    overflow: hidden;
+    position: relative;
+}
+.img-area img{
+    width: 100%;
+}
+
+.img-area img{
+    transition: all 0.4s ease 0s;
+}
+
+.img-text{
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+.img-text h4{
+  margin: 0 0 5px;
+  font-size: 17px;
+ font-family: sans-serif;
+  letter-spacing: 1px;
+}
+.img-text h5{
+  font-size: 17px;
+  color: #899096;
+  padding-bottom: 3px;
+
+}
+
+hr.style-eight {
+  height: 3px;
+  background: #70269f;
+    background: -webkit-gradient(linear,left top,right top,from(#70269f),to(#35eef6));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70269f', endColorstr='#35eef6',GradientType=1 );
+}
+
+
+/* ข่าวประชาสัมพันธ์ Style */
+.pro_pic{
+  clip-path: circle();
+}
+
+.news-border{
+  border-color: black;
+  border-width: 1.5px;
+  border-style: solid;
+}
+
+/* อาจารย์ที่ปรึกษา Style */
+.probootstrap-section.probootstrap-section-colored {
+  background: #f8f9fa;
+}
+
+@media screen and (max-width: 768px){
+.probootstrap-section {
+    padding: 1em 0;
+}}
+
+@media screen and (max-width: 1200px){
+.probootstrap-page-wrapper .container {
+    max-width: 900px;
+}}
+
+.probootstrap-section {
+  padding: 5em 0;
+  position: relative;
+}
+
+@media screen and (max-width: 480px){
+.probootstrap-gutter0>div[class*=col-] {
+    padding-right: 15px;
+    padding-left: 15px;
+}}
+
+/* Link สำหรับนักศึกษา Style */
+.services .icon-box-x .icon {
+  margin: 0 auto;
+  width: 72px;
+  height: 72px;
+  /* background: #3a45cb; */
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.services .icon-box-x {
+  font-family: "Open Sans", sans-serif !important;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  padding: 20px 20px;
+  transition: all ease-in-out 0.3s;
+  transform-origin: center top;
+  background: #fff;
+}
+.services .icon-box-x h4 a {
+  color: #151515;
+  transition: ease-in-out 0.3s;
+  line-height: 28px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.icon-box-x:hover{
+  transform: scale(1.05,1.05);
+  transform-style: flat;
+  transform-box: inherit;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #151515;
+}
+
+/* ติดต่อเรา Style */
+.t_align_c, .clients.brands .owl-controls {
+  text-align: center;
+}
+
+.m_bottom_35 {
+  margin-bottom: 35px;
+}
+
+.m_bottom_8 {
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width:1288px) {
+
+  .m_xs_bottom_30 {
+      text-align: center;
+  }
+}
+
+.w_break {
+  word-break: break-all;
+}
+
+.fw_light {
+  font-weight: 300;
+}
+
+.m_bottom_20 {
+  margin-bottom: 10px;
+}
+
+.social_icons {
+  padding-top: 2px;
+}
+
+@media only screen and (max-width:1288px){
+  .responsive-map{
+    width: 100%;
+    margin: 0px
+  }
+}
+
+@media only screen and (max-width:1288px){
+  .res-box-map{
+    margin-top: 10px;
+  }
+}
+
+
